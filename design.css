@@ -361,7 +361,7 @@ main{
 
 .section5{
     background-color: #000000;
-    min-height: 100vh;
+    min-height: 80vh;
     scroll-margin-top: 57px;
     padding-bottom: 70px;
 }
@@ -426,12 +426,14 @@ input{
     background-color: #121212;
     border: 1px solid rgba(139, 139, 139, 0.5);
     min-width: 300px;
+    color: white;
 }
 textarea{
     padding: 16px 20px;
     border-radius: 10px;
     background-color: #121212;
     border: 1px solid rgba(139, 139, 139, 0.5);
+    color: white;
 }
 .send-button{
     background: linear-gradient(90deg, #E6C229, #E8BA30, #D97706);
@@ -462,7 +464,8 @@ hr {
 .copy{
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 footer i{
     color: #8c8c8c;
@@ -480,7 +483,7 @@ footer i:hover{
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin: 30px 0px;
+    margin-top: 20px;
 }
 
 
@@ -526,5 +529,31 @@ footer i:hover{
     .contact-box2{
         margin-left: 0px;
     }
-
+}
+@media (max-width: 360px) {
+    .name{
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    input{
+        min-width: 200px;
+    }
+    textarea{
+        max-width: 200px;
+    }
+    .contact-box1{
+        max-width: 280px;
+    }
+    .contact-box2{
+        /* max-width: 100px; */
+    }
+    form{
+        max-width: 250px;
+    }
+    .send-button{
+        padding: 12px 24px;
+    }
+    .viewprojects{
+        padding: 13px 26px;
+    }
 }
