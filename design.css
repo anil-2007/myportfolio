@@ -369,7 +369,7 @@ main{
 }
 .contact-box{
     margin: auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
@@ -378,12 +378,12 @@ main{
 }
 .contact-box1{
     max-width: 500px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     margin-right: auto;
 }
 .contact-box2{
     margin-left: auto;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     min-width: 500px;
     display: flex;
     justify-content: center;
@@ -572,3 +572,4 @@ footer i:hover{
     }
     
 }
+
